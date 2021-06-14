@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+
+.block-title {
+  margin-bottom: 20px;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.btn {
+  padding: 13px 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1210px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* header */
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.head-tel {
+  margin-left: 40px;
+  font-size: 20px;
+  line-height: 1;
+  color: #666;
+}
+
+.cabinet-font-link {
+  margin-left: auto;
+  padding-left: 28px;
+  display: inline-block;
+  background-image: url(../img/cabinet.svg);
+  background-repeat: no-repeat;
+  line-height: 1;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding: 14px 45px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-item {
+  flex: 1 0 auto;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-btn {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 56px;
+  padding-left: 57px;
+  border-left: 1px solid #e1e1e1;
+}
+
+/* Main Head */
+.mainhead {
+  display: flex;
+  margin: auto;
+  min-height: 540px;
+  color: white;
+}
+
+.main-head {
+  flex: 1 1 50%;
+  background-color: #e5e5e5;
+}
+
+li.main-head:not(:last-child) {
+  margin-right: 23px;
+}
+
+.main-head-right {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 40px;
+  border-radius: 15px;
+}
+
+.main-head-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.main-head-left-items {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 40px;
+  border-radius: 15px;
+}
+
+li.main-head-left-items:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.main-head-items {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maldives {
+  background-image: url(../img/Maldives.jpg);
+}
+
+.crete {
+  background-image: url(../img/Crete.jpg);
+}
+
+.room-lux {
+  background-image: url(../img/Room-lux.jpg);
+}
+
+.font-spec {
+  margin-bottom: 15px;
+  max-width: 70%;
+  font-size: 40px;
+}
+
+.font-spec-r {
+  font-size: 60px;
+}
+
+.price {
+  margin-bottom: 47px;
+  font-size: 20px;
+}
+
+.price-r {
+  font-size: 30px;
+}
+
+.more {
+  max-width: max-content;
+  margin-bottom: 40px;
+  padding-right: 18px;
+  color: #ffcc66;
+  font-size: 16px;
+}
+
+/* About */
+.block-title-about {
+  margin-bottom: 11px;
+}
+
+.about-text {
+  max-width: 80%;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* Services */
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.service-item {
+  min-height: 330px;
+  margin-bottom: 23px;
+  padding-top: 165px;
+  flex: 0 1 49%;
+  background-color: white;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*.exclusive {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.foodcort {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.swimming-pool {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.parking {*/
+/*  background-image: url();*/
+/*}*/
+
+li.service-item:nth-child(2n) {
+  margin-left: 23px;
+}
+
+.font-service {
+  margin-top: 26px;
+  margin-left: 45px;
+}
+
+.font-link {
+  display: block;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Advan */
+.block-title-advan {
+  margin-top: 47px;
+  margin-bottom: 3px;
+}
+
+.advan-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advan-item {
+  flex: 0 1 23%;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 23px;
+  margin-top: 23px;
+  padding: 116px 35px 40px 45px;
+  background-color: white;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 45px 40px;
+}
+
+li.advan-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.about-text-advan {
+  max-width: 100%;
+  margin: 0;
+}
+
+/*.bath {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.hanger {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.heating {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.hotel-key {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.parking-advan {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.reception {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.security-box {*/
+/*  background-image: url();*/
+/*}*/
+
+/*.swimming-pool-advan {*/
+/*  background-image: url();*/
+/*}*/
+
+/* Places */
+.block-title-places {
+  margin-bottom: 3px;
+}
+
+.places-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.places-item {
+  min-height: 440px;
+  margin: 23px 23px 0 0;
+  flex: 0 1 30%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+li.places-item:nth-child(3n),
+li.places-item:last-child {
+  margin-right: 0;
+}
+
+.about-room-main {
+  padding: 36px 46px 41px 45px;
+}
+
+.about-room {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.position-more {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-color {
+  flex: 1 1 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.font-places-more {
+  margin-bottom: 27px;
+  padding-right: 20px;
+  background-image: url(../img/arrow-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+}
+
+.about-text-place {
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.star-mar {
+  margin-right: 6px;
+}
