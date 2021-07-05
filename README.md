@@ -1,1 +1,6 @@
 # Hotel-Lagoona![Снимок экрана (409)](https://user-images.githubusercontent.com/83923244/124199193-0e725900-dadb-11eb-8e98-807d9551e177.png)
+![1](https://user-images.githubusercontent.com/83923244/124491669-3522df00-ddbc-11eb-9ef4-e2c5a4684849.png)
+![2](https://user-images.githubusercontent.com/83923244/124491693-3b18c000-ddbc-11eb-8087-8a832826e4e4.png)
+![3](https://user-images.githubusercontent.com/83923244/124491706-3e13b080-ddbc-11eb-91c0-9212b2cc335c.png)
+![4](https://user-images.githubusercontent.com/83923244/124491729-42d86480-ddbc-11eb-987f-b3323933213c.png)
+![5](https://user-images.githubusercontent.com/83923244/124491740-45d35500-ddbc-11eb-8744-6d0a016c4d81.png)
